@@ -32,6 +32,12 @@
         android:key="unholy_lockscreen_settings"
         android:title="@string/lockscreen_settings_title"/>
 
+    <!-- Misc Settings -->
+    <PreferenceScreen
+        android:fragment="com.unholy.settings.fragments.MiscSettings"
+        android:key="misc_settings"
+        android:title="@string/misc_settings_title"/>
+
     <!-- Multitasking -->
     <PreferenceScreen
         android:fragment="com.unholy.settings.fragments.MultitaskingSettings"
@@ -40,14 +46,14 @@
 
     <!-- Notifications -->
     <PreferenceScreen
+        android:fragment="com.unholy.settings.fragments.Notifications"
         android:key="notifications_category"
-        android:title="@string/notifications"
-        android:fragment="com.unholy.settings.fragments.Notifications"/>
+        android:title="@string/notifications" />
 
     <!-- QS Tiles -->
     <PreferenceScreen
-        android:key="quicksettings"
         android:fragment="com.unholy.settings.fragments.QuickSettings"
+        android:key="quicksettings"
         android:title="@string/quicksettings_category" />
 
     <!-- Statusbar -->
