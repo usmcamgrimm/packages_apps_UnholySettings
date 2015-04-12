@@ -34,16 +34,16 @@ public class NotificationMediaSettings extends SettingsPreferenceFragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.notification_settings);
+        addPreferencesFromResource(R.xml.notifications_settings);
         PreferenceScreen prefScreen = getPreferenceScreen();
 
         mHeadsUp = (PreferenceScreen) findPreference(KEY_HEADS_UP_SETTINGS);
     }
 
     private boolean getUserHeadsUpState() {
-         return Settings.Global.getInt(getContentResolver(),
-                Settings.Global.HEADS_UP_NOTIFICATIONS_ENABLED,
-                Settings.Global.HEADS_UP_ON) != 0;
+         return Settings.System.getInt(getContentResolver(),
+                Settings.System.HEADS_UP_NOTIFICATIONS_ENABLED,
+                Settings.System.HEADS_UP_ON) != 0;
     }
 
     @Override
@@ -59,5 +59,3 @@ public class NotificationMediaSettings extends SettingsPreferenceFragment {
                 ? R.string.summary_heads_up_enabled : R.string.summary_heads_up_disabled);
     }
 }
-
-0
