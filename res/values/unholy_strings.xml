@@ -354,6 +354,8 @@
     <!-- Double Tap to Sleep -->
     <string name="double_tap_sleep_anywhere_title">Tap lockscreen to sleep</string>
     <string name="double_tap_sleep_anywhere_summary">Double tap anywhere on lockscreen to put device to sleep</string>
+    <string name="double_tap_sleep_nav_bar_title">Tap navbar to sleep</string>
+    <string name="double_tap_sleep_nav_bar_summary">Double tap the navigation bar to put the device to sleep</string>
 
     <!-- Volume rocker cursor control -->
     <string name="cursor_section_header">Cursor options</string>
