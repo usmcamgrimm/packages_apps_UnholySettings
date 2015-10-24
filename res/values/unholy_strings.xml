@@ -126,6 +126,10 @@
     <string name="lockscreen_date_title">Lockscreen date</string>
     <string name="lockscreen_alarm_title">Lockscreen alarm text</string>
 
+    <!-- Lockscreen cover art -->
+    <string name="media_art_title">Media cover art</string>
+    <string name="media_art_summary">Enable media cover art on the lockscreen</string>
+
     <!--SystemUI tuner-->
     <string name="statusbar_items_category">SystemUI statusbar options</string>
 
