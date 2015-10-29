@@ -23,5 +23,9 @@
         android:fragment="com.unholy.settings.fragments.HeadsUpSettings"
         android:key="heads_up_settings"
         android:title="@string/headsup_settings_title" />
+		
+    <com.unholy.settings.preference.SystemSettingSwitchPreference
+        android:key="force_expanded_notifications"
+        android:title="@string/force_expanded_notifications_title" />
 
 </PreferenceScreen>
