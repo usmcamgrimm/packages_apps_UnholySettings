@@ -31,16 +31,6 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-            android:key="wakeup"
-            android:title="@string/wakeup_category_header" >
-
-    <com.unholy.settings.preference.SystemSettingSwitchPreference
-            android:key="volume_rocker_wake"
-            android:title="@string/volume_rocker_wake_title"
-            android:defaultValue="false" />
-    </PreferenceCategory>
-
-    <PreferenceCategory
             android:key="media"
             android:title="@string/media_category_header" >
 
@@ -53,5 +43,20 @@
             android:key="swap_volume_buttons"
             android:title="@string/swap_volume_buttons_title" />
 
+    <com.unholy.settings.preference.SystemSettingSwitchPreference
+        android:key="volume_keys_control_media_stream"
+        android:title="@string/volume_keys_control_media_stream_title"
+        android:defaultValue="false" />
     </PreferenceCategory>
+
+    <PreferenceCategory
+            android:key="wakeup"
+            android:title="@string/wakeup_category_header" >
+
+    <com.unholy.settings.preference.SystemSettingSwitchPreference
+            android:key="volume_rocker_wake"
+            android:title="@string/volume_rocker_wake_title"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
 </PreferenceScreen>

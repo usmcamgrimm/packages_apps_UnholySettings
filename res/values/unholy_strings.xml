@@ -660,8 +660,11 @@
 
     <!-- Notification Count in Statusbar -->
     <string name="status_bar_notif_count_title">Show notification count</string>
-	
-     <!-- Statusbar Screw'd logo -->
+
+    <!-- Volume key controls media stream -->
+    <string name="volume_keys_control_media_stream_title">Volume keys control media volume</string>
+
+    <!-- Statusbar Screw'd logo -->
     <string name="status_bar_unholy_logo_title">Unholy logo</string>
     <string name="status_bar_unholy_logo_summary">Enable unholy logo on the statusbar</string>
     <string name="status_bar_unholy_logo_color">Unholy logo color</string>
