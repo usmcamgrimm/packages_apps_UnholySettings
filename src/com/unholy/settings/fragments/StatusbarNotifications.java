@@ -47,7 +47,7 @@ public class StatusbarNotifications extends SettingsPreferenceFragment implement
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.notifications_settings);
+        addPreferencesFromResource(R.xml.statusbar_notifications);
 
         final PreferenceScreen prefSet = getPreferenceScreen();
         final ContentResolver resolver = getActivity().getContentResolver();

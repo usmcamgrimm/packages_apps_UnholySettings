@@ -30,6 +30,7 @@
     <string name="lights_settings">Lights</string>
     <string name="quicksettings_category">Quick settings</string>
     <string name="misc_settings_title">Misc settings</string>
+    <string name="statusbar_notifications_category">Statusbar notifications</string>
 
     <!-- Immersive recents -->
     <string name="immersive_recents_category">Recents options</string>
@@ -70,7 +71,7 @@
     <string name="text_charging_symbol_tilde">Tilde</string>
 
     <!-- Custom carrier label and position -->
-    <string name="carrier_label_settings_title">Carrier Label</string>
+    <string name="carrier_label_settings_title">Carrier label</string>
     <string name="custom_carrier_label_title">Custom carrier label</string>
     <string name="custom_carrier_label_explain">Please enter a new label. Leave blank to revert to stock label.</string>
     <string name="custom_carrier_label_notset">Custom label currently not set</string>
@@ -108,7 +109,7 @@
     <string name="clock_date_format_custom">Custom java format</string>
 
     <!-- Color picker -->
-    <string name="color_picker_fragment_title">Color Picker</string>
+    <string name="color_picker_fragment_title">Color picker</string>
     <string name="apply_color_title">Apply color</string>
     <string name="edit_hex_title">HEX value</string>
     <string name="palette_unholy_title">Unholy</string>
@@ -126,7 +127,7 @@
     <string name="empty_title">Empty</string>
 
     <!-- Color picker help screen -->
-    <string name="color_picker_help_screen_title">Color Picker help</string>
+    <string name="color_picker_help_screen_title">Color picker help</string>
     <string name="color_picker_help_ab_title">Action bar:</string>
     <string name="color_picker_help_ab_back_title">Back button:</string>
     <string name="color_picker_help_ab_back_summary">Close the color picker without applying the new color, (cancel).\nThis has the same effect as clicking the back button on the navigation bar.</string>
@@ -268,7 +269,7 @@
     <!-- Quick Pulldown-->
     <string name="quick_pulldown_title">Quick pulldown</string>
     <string name="quick_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
-    <string name="quick_pulldown_summary_always">Always show Quick Settings on status bar pulldown</string>
+    <string name="quick_pulldown_summary_always">Always show Quick settings on status bar pulldown</string>
     <string name="quick_pulldown_off">Off</string>
     <string name="quick_pulldown_left">Left</string>
     <string name="quick_pulldown_right">Right</string>
@@ -472,6 +473,8 @@
     <string name="force_expanded_notifications_title">Force expanded notifications</string>
 
     <!-- Disabling immersive mode messages -->
-    <string name="disable_immersive_message_title">Disable Immersive Mode Messages</string>
-    <string name="disable_immersive_message_summary">This will hide all Immersive Mode Messages</string>
+    <string name="disable_immersive_message_title">Disable immersive messages</string>
+
+    <!-- Notification Count in Statusbar -->
+    <string name="status_bar_notif_count_title">Show notification count</string>
 </resources>
