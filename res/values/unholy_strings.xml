@@ -351,6 +351,10 @@
    <!-- Summary for take to wake setting [CHAR LIMIT=90] -->
    <string name="tap_to_wake_summary">Double-tap anywhere on the screen to wake device</string>
 
+    <!-- Double Tap to Sleep -->
+    <string name="double_tap_sleep_anywhere_title">Tap lockscreen to sleep</string>
+    <string name="double_tap_sleep_anywhere_summary">Double tap anywhere on lockscreen to put device to sleep</string>
+
     <!-- Volume rocker cursor control -->
     <string name="cursor_section_header">Cursor options</string>
     <string name="volume_key_cursor_control_title">Volume key cursor control</string>
