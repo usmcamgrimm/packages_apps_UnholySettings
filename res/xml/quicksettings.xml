@@ -19,8 +19,14 @@
 
     <com.unholy.settings.preference.SecureSettingSwitchPreference
         android:key="qs_show_brightness"
-        android:title="@string/show_brightness"
-        android:defaultValue="true" />
+        android:title="@string/qs_brightness_slider_title"
+        android:defaultValue="true"/>
+
+    <com.unholy.settings.preference.SecureSettingSwitchPreference
+        android:key="qs_show_brightness_icon"
+        android:title="@string/brightness_icon_title"
+        android:dependency="qs_show_brightness"
+        android:defaultValue="false"/>
 
     <ListPreference
         android:key="quick_pulldown"
