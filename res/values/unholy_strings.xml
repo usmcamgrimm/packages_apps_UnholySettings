@@ -657,6 +657,9 @@
     <string name="smartbar_doubletap_sleep_title">Double tap to sleep</string>
     <string name="smartbar_doubletap_sleep_summary">Double tap on navbar empty areas to switch off the screen</string>
 
+    <!-- Disable QS on lockscreen -->
+    <string name="block_on_secure_keyguard_title">Disable quick settings on lockscreen</string>
+
     <!-- Force expanded notifications -->
     <string name="force_expanded_notifications_title">Force expanded notifications</string>
 
