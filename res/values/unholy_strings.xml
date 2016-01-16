@@ -20,7 +20,16 @@
 
     <!-- Settings Categories -->
     <string name="notifications">Notifications</string>
+    <string name="multitasking_settings_title">Multitasking</string>
     <string name="statusbar_settings_title">Statusbar</string>
+
+    <!-- Immersive recents -->
+    <string name="immersive_recents_category">Recents options</string>
+    <string name="immersive_recents_title">Immersive Recents</string>
+    <string name="immersive_recents_default">Default</string>
+    <string name="immersive_recents_fullscreen">Fullscreen</string>
+    <string name="immersive_recents_statusbar">Statusbar only</string>
+    <string name="immersive_recents_navbar">Navbar only</string>
 
 	<!-- Battery customizations -->
     <string name="status_bar_battery_style_category">Battery options</string>

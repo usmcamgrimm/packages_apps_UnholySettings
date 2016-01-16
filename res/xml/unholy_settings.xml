@@ -25,4 +25,10 @@
         android:fragment="com.unholy.settings.fragments.StatusBarSettings"
         android:key="unholy_statusbar_settings"
         android:title="@string/statusbar_settings_title"/>
+
+    <!-- Multitasking -->
+    <PreferenceScreen
+        android:fragment="com.unholy.settings.fragments.MultitaskingSettings"
+        android:key="unholy_multitasking_settings"
+        android:title="@string/multitasking_settings_title"/>
 </PreferenceScreen>
