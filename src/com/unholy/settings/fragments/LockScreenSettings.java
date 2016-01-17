@@ -24,16 +24,27 @@ import android.support.v7.preference.PreferenceScreen;
 import com.android.internal.logging.MetricsProto.MetricsEvent;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+import com.unholy.settings.utils.Utils;
+import com.unholy.settings.preference.SystemSettingSwitchPreference;
 
 public class LockScreenSettings extends SettingsPreferenceFragment {
 
     private static final int MY_USER_ID = UserHandle.myUserId();
 
+    private static final String KEYGUARD_TORCH = "keyguard_toggle_torch";
+
+    private SystemSettingSwitchPreference mLsTorch;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.lockscreen_settings);
-        PreferenceScreen prefScreen = getPreferenceScreen();        
+        PreferenceScreen prefScreen = getPreferenceScreen();
+
+        mLsTorch = (SystemSettingSwitchPreference) findPreference(KEYGUARD_TORCH);
+        if (!Utils.deviceSupportsFlashLight(getActivity())) {
+            prefScreen.removePreference(mLsTorch);
+        }
     }
 
     @Override
