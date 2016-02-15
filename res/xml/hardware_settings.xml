@@ -19,4 +19,9 @@
          android:title="@string/volume_title"
          android:fragment="com.unholy.settings.fragments.VolumeRockerSettings"/>
 
+    <PreferenceScren
+        android:key="button_settings"
+        android:title="@string/button_settings"
+        android:fragment="com.unholy.settings.fragments.ButtonSettings" />
+
 </PreferenceScreen>
