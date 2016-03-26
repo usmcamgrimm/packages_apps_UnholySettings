@@ -42,8 +42,8 @@ public class NotificationMediaSettings extends SettingsPreferenceFragment {
 
     private boolean getUserHeadsUpState() {
          return Settings.System.getInt(getContentResolver(),
-                Settings.System.HEADS_UP_NOTIFICATIONS_ENABLED,
-                Settings.System.HEADS_UP_ON) != 0;
+                Settings.System.HEADS_UP_USER_ENABLED,
+                Settings.System.HEADS_UP_USER_ON) != 0;
     }
 
     @Override
