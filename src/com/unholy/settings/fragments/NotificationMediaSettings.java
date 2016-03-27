@@ -34,7 +34,7 @@ public class NotificationMediaSettings extends SettingsPreferenceFragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.notification_media_settings);
+        addPreferencesFromResource(R.xml.notification_settings);
         PreferenceScreen prefScreen = getPreferenceScreen();
 
         mHeadsUp = (PreferenceScreen) findPreference(KEY_HEADS_UP_SETTINGS);
