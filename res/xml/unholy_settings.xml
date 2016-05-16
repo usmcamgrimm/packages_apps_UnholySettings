@@ -38,6 +38,13 @@
         android:title="@string/notifications"
         android:fragment="com.unholy.settings.fragments.Notifications"/>
 
+    <!-- QS Tiles -->
+    <PreferenceScreen
+        android:key="quicksettings"
+        android:fragment="com.unholy.settings.fragments.QuickSettings"
+        android:layout="@layout/preference_systemui_tuner_qs"
+        android:title="@string/quicksettings_category" />
+
     <!-- Statusbar -->
     <PreferenceScreen
         android:fragment="com.unholy.settings.fragments.StatusBarSettings"
