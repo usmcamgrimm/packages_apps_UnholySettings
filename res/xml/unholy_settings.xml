@@ -14,6 +14,12 @@
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
         android:title="@string/unholy_title" >
 
+    <!-- Lockscreen -->
+    <PreferenceScreen
+        android:fragment="com.unholy.settings.fragments.LockScreenSettings"
+        android:key="unholy_lockscreen_settings"
+        android:title="@string/lockscreen_settings_title"/>
+
     <!-- Multitasking -->
     <PreferenceScreen
         android:fragment="com.unholy.settings.fragments.MultitaskingSettings"

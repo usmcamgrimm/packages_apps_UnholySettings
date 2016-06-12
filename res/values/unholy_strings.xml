@@ -20,6 +20,7 @@
 
     <!-- Settings Categories -->
     <string name="notifications">Notifications</string>
+    <string name="lockscreen_settings_title">Lockscreen</string>
     <string name="multitasking_settings_title">Multitasking</string>
     <string name="statusbar_settings_title">Statusbar</string>
     <string name="volume_title">Volume rockers</string>
@@ -32,7 +33,7 @@
     <string name="immersive_recents_statusbar">Statusbar only</string>
     <string name="immersive_recents_navbar">Navbar only</string>
 
-	<!-- Battery customizations -->
+    <!-- Battery customizations -->
     <string name="status_bar_battery_style_category">Battery options</string>
     <string name="status_bar_battery_style_title">Battery status style</string>
     <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
@@ -119,8 +120,14 @@
     <string name="color_picker_help_do_not_show_title">Don\'t show again</string>
     <string name="color_picker_help_button_ok_title">OK</string>
 
+    <!-- Lockscreen items clock, date, alarm text -->
+    <string name="lockscreen_items_settings_title">Lockscreen Items</string>
+    <string name="lockscreen_clock_title">Lockscreen clock</string>
+    <string name="lockscreen_date_title">Lockscreen date</string>
+    <string name="lockscreen_alarm_title">Lockscreen alarm text</string>
+
     <!--SystemUI tuner-->
-	<string name="statusbar_items_category">SystemUI statusbar options</string>
+    <string name="statusbar_items_category">SystemUI statusbar options</string>
 
     <!-- Volume rocker cursor control -->
     <string name="cursor_section_header">Cursor options</string>
