@@ -434,4 +434,8 @@
     <string name="qs_bt_easy_toggle_title">Bluetooth easy toggle</string>
     <string name="qs_bt_easy_toggle_summary">Makes it so one click will turn Bluetooth on or off instead of taking you to settings</string>
 
+    <!-- Bluetooth status -->
+    <string name="bluetooth_battery_title">Show Bluetooth battery status</string>
+    <string name="bluetooth_battery_summary">Show battery status for the currently connected bluetooth device, if available.</string>
+
 </resources>
