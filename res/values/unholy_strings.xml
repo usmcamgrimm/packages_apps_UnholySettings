@@ -22,6 +22,7 @@
     <string name="notifications">Notifications</string>
     <string name="multitasking_settings_title">Multitasking</string>
     <string name="statusbar_settings_title">Statusbar</string>
+    <string name="volume_title">Volume rockers</string>
 
     <!-- Immersive recents -->
     <string name="immersive_recents_category">Recents options</string>
@@ -117,8 +118,23 @@
     <string name="color_picker_help_palette_summary">All palette colors have a fixed value.\nA click sets the palette color as new color, without applying the new color.</string>
     <string name="color_picker_help_do_not_show_title">Don\'t show again</string>
     <string name="color_picker_help_button_ok_title">OK</string>
-	
+
     <!--SystemUI tuner-->
 	<string name="statusbar_items_category">SystemUI statusbar options</string>
-  
+
+    <!-- Volume rocker cursor control -->
+    <string name="cursor_section_header">Cursor options</string>
+    <string name="volume_key_cursor_control_title">Volume key cursor control</string>
+    <string name="volume_key_cursor_control_off">Disabled</string>
+    <string name="volume_key_cursor_control_on">Volume up/down moves cursor left/right</string>
+    <string name="volume_key_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
+
+    <!-- Volume rocker wake -->
+    <string name="wakeup_category_header">Wakeup options</string>
+    <string name="volume_rocker_wake_title">Volume rocker wake</string>
+
+    <!-- Volume rocker music control -->
+    <string name="media_category_header">Media options</string>
+    <string name="volume_rocker_music_controls_title">Playback control</string>
+
 </resources>

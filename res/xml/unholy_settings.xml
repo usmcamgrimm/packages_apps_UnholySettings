@@ -14,6 +14,12 @@
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
         android:title="@string/unholy_title" >
 
+    <!-- Multitasking -->
+    <PreferenceScreen
+        android:fragment="com.unholy.settings.fragments.MultitaskingSettings"
+        android:key="unholy_multitasking_settings"
+        android:title="@string/multitasking_settings_title"/>
+
     <!-- Notifications -->
     <PreferenceScreen
         android:key="notifications_category"
@@ -26,9 +32,10 @@
         android:key="unholy_statusbar_settings"
         android:title="@string/statusbar_settings_title"/>
 
-    <!-- Multitasking -->
+    <!-- Volume Rocker -->
     <PreferenceScreen
-        android:fragment="com.unholy.settings.fragments.MultitaskingSettings"
-        android:key="unholy_multitasking_settings"
-        android:title="@string/multitasking_settings_title"/>
+         android:key="volume_key"
+         android:title="@string/volume_title"
+         android:fragment="com.unholy.settings.fragments.VolumeRockerSettings"/>
+
 </PreferenceScreen>
