@@ -24,7 +24,7 @@
     <string name="multitasking_settings_title">Multitasking</string>
     <string name="statusbar_settings_title">Statusbar</string>
 	<string name="hardware_settings_title">Hardware</string>
-    <string name="volume_title">Volume rocker</string>
+    <string name="volume_title">Volume rocker options</string>
     <string name="notification_lights">Notification and battery lights</string>
     <string name="led_settings">LED settings"</string>
     <string name="lights_settings">Lights</string>
@@ -244,7 +244,7 @@
     <string name="media_art_title">Media cover art</string>
 
     <!-- QS settings -->
-    <string name="status_bar_expanded_qs_settings">Layout</string>
+    <string name="status_bar_expanded_qs_settings">QS tiles layout</string>
     <string name="status_bar_expanded_qs_settings_summary">Choose the number of rows and columns</string>
     <string name="qs_cat_portrait_title">Portrait</string>
     <string name="qs_cat_landscape_title">Landscape</string>
@@ -324,10 +324,6 @@
     <string name="qs_set_animation_duration">%1$s</string>
     <string name="qs_set_animation_interpolator">%1$s</string>
 
-    <!-- Advanced data tile -->
-    <string name="qs_advanced_data_title">Advanced data tile</string>
-    <string name="qs_advanced_data_summary">Enable one tap action to enable or disable data</string>
-
     <!--SystemUI tuner-->
     <string name="statusbar_items_category">SystemUI statusbar options</string>
 
@@ -344,7 +340,7 @@
     <string name="gesture_preference_summary" product="device">Quick gestures to control your device</string>
 
     <!-- Title text for double tap power for camera [CHAR LIMIT=60]-->
-    <string name="double_tap_power_for_camera_title">Jump to Camera</string>
+    <string name="double_tap_power_for_camera_title">Jump to camera</string>
 
     <!-- Summary text for double tap power for camera [CHAR LIMIT=160]-->
     <string name="double_tap_power_for_camera_summary">To quickly open camera, press the power button twice. Works from any screen</string>
@@ -430,6 +426,10 @@
     <!-- Volume button orientation based on current rotation -->
     <string name="swap_volume_buttons_title">Swap volume rocker orientation</string>
 
+    <!-- Advanced data tile -->
+    <string name="qs_advanced_data_title">Advanced data tile</string>
+    <string name="qs_advanced_data_summary">Enable one tap action to enable or disable data</string>
+
     <!-- BT easy toggle -->
     <string name="qs_bt_easy_toggle_title">Advanced BT tile</string>
 
@@ -437,4 +437,6 @@
     <string name="bluetooth_battery_title">Show Bluetooth battery status</string>
     <string name="bluetooth_battery_summary">Show battery status for the currently connected bluetooth device, if available.</string>
 
+	<!-- Wifi toggle -->
+    <string name="qs_wifi_easy_toggle_title">Advanced WiFi tile</string>
 </resources>
