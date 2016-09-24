@@ -21,5 +21,13 @@
         android:key="unholy_clock_settings"
         android:title="@string/clock_settings_title"
         android:summary="@string/clock_settings_summary" />
+		
+	<PreferenceScreen
+            android:key="systemui_tuner_statusbar"
+            android:title="@string/statusbar_items_category"
+        <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.android.systemui"
+                android:targetClass="com.android.systemui.tuner.TunerActivity" />
+    </PreferenceScreen>
 
 </PreferenceScreen>

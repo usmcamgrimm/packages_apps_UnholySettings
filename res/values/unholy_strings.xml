@@ -96,5 +96,8 @@
     <string name="color_picker_help_palette_summary">All palette colors have a fixed value.\nA click sets the palette color as new color, without applying the new color.</string>
     <string name="color_picker_help_do_not_show_title">Don\'t show again</string>
     <string name="color_picker_help_button_ok_title">OK</string>
+	
+    <!--SystemUI tuner-->
+	<string name="statusbar_items_category">SystemUI statusbar options</string>
   
 </resources>
