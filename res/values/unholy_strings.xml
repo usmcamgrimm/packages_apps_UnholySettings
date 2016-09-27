@@ -235,6 +235,9 @@
     <!-- Lockscreen cover art -->
     <string name="media_art_title">Media cover art</string>
 
+    <!-- Option to show brightness bar in quick settings -->
+    <string name="show_brightness">Show brightness slider</string>
+
     <!-- Quick Pulldown-->
     <string name="quick_pulldown_title">Quick pulldown</string>
     <string name="quick_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
