@@ -22,6 +22,11 @@
         android:title="@string/qs_brightness_slider_title"
         android:defaultValue="true"/>
 
+    <com.unholy.settings.preference.SecureSettingSwitchPreference
+        android:key="qs_data_advanced"
+        android:title="@string/qs_advanced_data_title"
+        android:defaultValue="false" />
+
     <PreferenceScreen
         android:key="status_bar_expanded_qs_settings"
         android:title="@string/status_bar_expanded_qs_settings"
