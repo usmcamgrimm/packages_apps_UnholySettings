@@ -28,7 +28,7 @@
                 android:key="volume_key_cursor_control"
                 android:persistent="false"
                 android:title="@string/volume_key_cursor_control_title" />
-</PreferenceCategory>
+    </PreferenceCategory>
 
     <PreferenceCategory
         android:key="wakeup"
@@ -37,8 +37,7 @@
     <com.unholy.settings.preference.SystemSettingSwitchPreference
             android:key="volume_rocker_wake"
             android:title="@string/volume_rocker_wake_title"
-            android:defaultValue="false"
-            android:disableDependentsState="true" />
+            android:defaultValue="false" />
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -48,8 +47,7 @@
     <com.unholy.settings.preference.SystemSettingSwitchPreference
         android:key="volume_rocker_music_controls"
         android:title="@string/volume_rocker_music_controls_title"
-        android:defaultValue="true"
-        android:dependency="volume_rocker_wake" />
-    </PreferenceCategory>
+        android:defaultValue="true" />
 
+    </PreferenceCategory>
 </PreferenceScreen>
