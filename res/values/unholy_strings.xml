@@ -31,6 +31,8 @@
     <string name="quicksettings_category">Quick settings</string>
     <string name="misc_settings_title">Misc settings</string>
     <string name="statusbar_notifications_category">Statusbar notifications</string>
+    <string name="unholy_logo_settings_title">Unholy custom logo</string>
+
 
     <!-- Immersive recents -->
     <string name="immersive_recents_category">Recents options</string>
@@ -477,4 +479,13 @@
 
     <!-- Notification Count in Statusbar -->
     <string name="status_bar_notif_count_title">Show notification count</string>
+	
+     <!-- Statusbar Screw'd logo -->
+    <string name="status_bar_unholy_logo_title">Unholy logo</string>
+    <string name="status_bar_unholy_logo_summary">Enable unholy logo on the statusbar</string>
+    <string name="status_bar_unholy_logo_color">Unholy logo color</string>
+    <string name="status_bar_unholy_logo_position">Logo location</string>
+    <string name="status_bar_unholy_logo_position_summary">Choose which side to display the logo on, left or right</string>
+    <string name="status_bar_logo_position_right">Right</string>
+    <string name="status_bar_logo_position_left">Left</string>
 </resources>
