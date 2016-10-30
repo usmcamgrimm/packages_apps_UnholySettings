@@ -377,6 +377,13 @@
     <string name="double_tap_sleep_nav_bar_title">Tap navbar to sleep</string>
     <string name="double_tap_sleep_nav_bar_summary">Double tap the navigation bar to put the device to sleep</string>
 
+    <!-- Option to enable/disable scrolling cache -->
+    <string name="pref_scrollingcache_title">Scrolling cache</string>
+    <string name="pref_scrollingcache_force_enable">Force enable</string>
+    <string name="pref_scrollingcache_default_enable">Default enable</string>
+    <string name="pref_scrollingcache_default_disable">Default disable</string>
+    <string name="pref_scrollingcache_force_disable">Force disable</string>
+
     <!-- Volume rocker cursor control -->
     <string name="cursor_section_header">Cursor options</string>
     <string name="volume_key_cursor_control_title">Volume key cursor control</string>
