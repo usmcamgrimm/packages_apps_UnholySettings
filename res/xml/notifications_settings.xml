@@ -18,5 +18,10 @@
         android:key="lights_settings"
         android:title="@string/notification_lights"
         android:fragment="com.unholy.settings.fragments.LightsSettings" />
+		
+    <PreferenceScreen
+        android:fragment="com.unholy.settings.fragments.HeadsUpSettings"
+        android:key="heads_up_settings"
+        android:title="@string/headsup_settings_title" />
 
 </PreferenceScreen>

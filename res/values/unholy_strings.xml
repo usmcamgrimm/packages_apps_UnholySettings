@@ -439,4 +439,10 @@
 
 	<!-- Wifi toggle -->
     <string name="qs_wifi_easy_toggle_title">Advanced WiFi tile</string>
+	
+    <!-- Heads up settings -->
+    <string name="headsup_settings_title">Heads up notifications</string>
+    <string name="summary_heads_up_enabled">Heads up notifications are enabled</string>
+    <string name="summary_heads_up_disabled">Heads up notifications are disabled</string>
+    <string name="heads_up_disabled_notice">To allow apps to display interactive notifications, enable Heads up notifications.</string>
 </resources>
