@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2016 The Pure Nexus Project
+     Copyright (C) 2016 Screw'd AOSP
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -40,5 +41,11 @@
         android:key="show_lockscreen_alarm"
         android:title="@string/lockscreen_alarm_title" 
         android:persistent="true" />
+
+    <com.unholy.settings.preference.SystemSettingSwitchPreference
+        android:key="lockscreen_charging_current"
+        android:title="@string/lockscreen_charging_current_title"
+        android:summary="@string/lockscreen_charging_current_summary"
+        android:defaultValue="true" />
 
 </PreferenceScreen>
