@@ -789,6 +789,11 @@
     <string name="status_bar_toggle_brightness">Brightness control</string>
     <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
 
+    <!-- Optional screenshot type -->
+    <string name="screenshot_type_title">Screenshot type</string>
+    <string name="screenshot_type_fullscreen">Take fullscreen screenshots</string>
+    <string name="screenshot_type_partial">Drag selection on the area you want to take as a screenshot</string>
+
     <!-- Keyguard Statusbar Clock -->
     <string name="keyguard_statusbar_clock_title">Statusbar clock</string>
     <string name="keyguard_statusbar_clock_summary">Show the left statusbar clock on the keyguard</string>
