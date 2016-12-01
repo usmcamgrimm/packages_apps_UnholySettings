@@ -17,6 +17,10 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/quicksettings_category" >
 
+    <PreferenceCategory
+        android:key="qs_title"
+        android:title="@string/qs_title">
+
     <com.unholy.settings.preference.SecureSettingSwitchPreference
         android:key="qs_bt_easy_toggle"
         android:title="@string/qs_bt_easy_toggle_title"
@@ -54,6 +58,8 @@
         android:entryValues="@array/quick_pulldown_values"
         android:persistent="false" />
 
+    </PreferenceCategory>
+
     <PreferenceCategory
         android:key="quicksettings_tiles_category"
         android:title="@string/quicksettings_tiles_category">
@@ -82,7 +88,8 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:title="@string/qs_header_category">
+        android:key="quicksettings_header"
+        android:title="@string/qs_header_title">
 
         <com.unholy.settings.preference.SystemSettingSwitchPreference
             android:key="qs_settings_icon_toggle"
@@ -115,6 +122,17 @@
             android:title="@string/qs_expand_indicator_title"
             android:summary="@string/qs_expand_indicator_summary"
             android:defaultValue="true" />
+
+        <com.unholy.settings.preference.SystemSettingSwitchPreference
+            android:key="qs_date_time_center"
+            android:title="@string/qs_date_time_center_title"
+            android:summary="@string/qs_date_time_center_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/qs_header_category">
 
         <com.unholy.settings.preference.SystemSettingSwitchPreference
             android:key="status_bar_custom_header"

@@ -248,6 +248,7 @@
     <string name="media_art_title">Album cover art</string>
 
     <!-- QS settings -->
+    <string name="qs_title">Quick settings</string>
     <string name="status_bar_expanded_qs_settings">QS tiles layout</string>
     <string name="status_bar_expanded_qs_settings_summary">Choose the number of rows and columns</string>
     <string name="qs_cat_portrait_title">Portrait</string>
@@ -278,8 +279,8 @@
     <string name="quick_pulldown_right">Right</string>
     <string name="quick_pulldown_always">Always</string>
 
-    <!-- QS headers -->
-    <string name="qs_header_title">Header</string>
+    <!-- QS header options -->
+    <string name="qs_header_title">Header custom options</string>
     <string name="qs_settings_icon_title">Settings shortcut</string>
     <string name="qs_settings_icon_summary">Enable the settings shortcut in the header</string>
     <string name="qs_settings_expanded_title">Settings shortcut expanded</string>
@@ -290,7 +291,11 @@
     <string name="qs_multiuser_switch_summary">Enable the multiuser switch in the header</string>
     <string name="qs_expand_indicator_title">Expand indicator</string>
     <string name="qs_expand_indicator_summary">Enable the expand indicator (^) in the header</string>
-    <string name="qs_header_category">Quick settings header</string>
+    <string name="qs_date_time_center_title">Center date and time</string>
+    <string name="qs_date_time_center_summary">Requires one or more icons to be disabled</string>
+
+	<!-- QS Header images -->
+    <string name="qs_header_category">Header custom images</string>
     <string name="status_bar_custom_header_title">Custom header image</string>
     <string name="status_bar_custom_header_summary">Enable notification panel header image</string>
     <string name="daylight_header_pack_title">Header image pack</string>
