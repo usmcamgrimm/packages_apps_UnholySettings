@@ -45,11 +45,13 @@ public class StatusbarExpandedQSSettings extends SettingsPreferenceFragment impl
             "qs_rows_landscape";
     private static final String PREF_COLUMNS_LANDSCAPE =
             "qs_columns_landscape";
+    private static final String PREF_SYSUI_QQS_COUNT = "sysui_qqs_count_key";
 
     private ListPreference mRowsPortrait;
     private ListPreference mColumnsPortrait;
     private ListPreference mRowsLandscape;
     private ListPreference mColumnsLandscape;
+    private ListPreference mSysuiQqsCount;
 
     private ContentResolver mResolver;
 
@@ -112,6 +114,12 @@ public class StatusbarExpandedQSSettings extends SettingsPreferenceFragment impl
         mColumnsLandscape.setValue(String.valueOf(columnsLandscape));
         mColumnsLandscape.setSummary(mColumnsLandscape.getEntry());
         mColumnsLandscape.setOnPreferenceChangeListener(this);
+
+        mSysuiQqsCount = (ListPreference) findPreference(PREF_SYSUI_QQS_COUNT);
+        int SysuiQqsCount = Settings.Secure.getInt(getContentResolver(),
+                Settings.Secure.QQS_COUNT, 6);
+        mSysuiQqsCount.setValue(String.valueOf(SysuiQqsCount));
+        mSysuiQqsCount.setOnPreferenceChangeListener(this);
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
@@ -145,6 +153,11 @@ public class StatusbarExpandedQSSettings extends SettingsPreferenceFragment impl
             Settings.System.putInt(mResolver,
                     Settings.System.QS_COLUMNS_LANDSCAPE, intValue);
             preference.setSummary(mColumnsLandscape.getEntries()[index]);
+            return true;
+        } else if (preference == mSysuiQqsCount) {
+            int SysuiQqsCount = Integer.valueOf((String) newValue);
+            Settings.Secure.putInt(getActivity().getContentResolver(),
+                    Settings.Secure.QQS_COUNT, SysuiQqsCount * 1);
             return true;
         }
         return false;

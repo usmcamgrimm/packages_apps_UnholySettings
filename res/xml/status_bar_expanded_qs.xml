@@ -54,4 +54,17 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="qs_cat_small"
+        android:title="@string/qs_cat_small_title">
+
+        <ListPreference
+            android:key="sysui_qqs_count_key"
+            android:title="@string/qs_small_tiles_title"
+            android:entries="@array/qs_small_tiles_entries"
+            android:entryValues="@array/qs_small_tiles_values"          
+            android:persistent="false" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>

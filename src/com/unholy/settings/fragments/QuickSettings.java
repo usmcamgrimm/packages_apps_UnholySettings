@@ -74,7 +74,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
     private ListPreference mHeaderProvider;
     private CustomSeekBarPreference mHeaderShadow;
     private PreferenceScreen mHeaderBrowse;
-    private String mDaylightHeaderProvider;  		  
+    private String mDaylightHeaderProvider;           
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
