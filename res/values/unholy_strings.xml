@@ -772,6 +772,10 @@
     <string name="network_traffic_hidearrow">Hide arrows</string>
     <string name="network_traffic_hidearrow_summary">Hide the arrows in the traffic indicators</string>
 
+    <!-- Power notification controls -->
+    <string name="power_notification_controls_title">Power notification controls</string>
+    <string name="power_notification_controls_summary">Select importance level for notifications</string>
+
     <!-- Statusbar brightness -->
     <string name="status_bar_toggle_brightness">Brightness control</string>
     <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
