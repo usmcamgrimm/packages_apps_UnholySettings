@@ -120,6 +120,10 @@
     <string name="color_picker_help_do_not_show_title">Don\'t show again</string>
     <string name="color_picker_help_button_ok_title">OK</string>
 
+    <!--  Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
+    <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage on lockscreen</string>
+
     <!-- Lockscreen charging current indicator  -->
     <string name="lockscreen_charging_current_title">Lockscreen charging info</string>
     <string name="lockscreen_charging_current_summary">Display negociated charger max current and voltage on lockscreen</string>
