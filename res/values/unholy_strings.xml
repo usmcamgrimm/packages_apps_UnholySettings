@@ -37,6 +37,10 @@
     <string name="immersive_recents_statusbar">Statusbar only</string>
     <string name="immersive_recents_navbar">Navbar only</string>
 
+    <!-- Recents Membar -->
+    <string name="systemui_recents_mem_display_title">Show memory bar</string>
+    <string name="systemui_recents_mem_display_summary">Show how much RAM is used in recents view</string>
+
     <!-- Battery customizations -->
     <string name="status_bar_battery_style_category">Battery options</string>
     <string name="status_bar_battery_style_title">Battery status style</string>

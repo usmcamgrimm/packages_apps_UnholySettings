@@ -19,6 +19,11 @@
         android:fragment="com.unholy.settings.fragments.RecentSettings"
         android:key="immersive_recents"
         android:title="@string/immersive_recents_category" />
+
+      <com.unholy.settings.preference.SystemSettingSwitchPreference
+          android:key="systemui_recents_mem_display"
+          android:title="@string/systemui_recents_mem_display_title"
+          android:summary="@string/systemui_recents_mem_display_summary"
+          android:defaultValue="true" />
      
 </PreferenceScreen>
-
