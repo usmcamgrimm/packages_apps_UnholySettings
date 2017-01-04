@@ -14,4 +14,9 @@
     android:title="@string/navbar_settings"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <com.unholy.settings.preference.SystemSettingSwitchPreference
+        android:key="pixel_nav_animation"
+        android:title="@string/pixel_navbar_anim_title"
+        android:defaultValue="true" />
+
 </PreferenceScreen>
