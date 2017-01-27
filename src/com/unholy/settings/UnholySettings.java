@@ -36,6 +36,7 @@ public class UnholySettings extends SettingsPreferenceFragment {
         super.onCreate(savedInstanceState);
 
         addPreferencesFromResource(R.xml.unholy_settings);
+        PreferenceScreen prefScreen = getPreferenceScreen();
     }
 
     @Override
