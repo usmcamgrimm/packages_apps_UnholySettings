@@ -18,6 +18,6 @@
     <PreferenceScreen
         android:key="notifications_category"
         android:title="@string/notifications">
-        android:fragment="com.unholy.settings.fragments.NotificationSettings"
+        android:fragment="com.unholy.settings.fragments.NotificationSettings"/>
 
 </PreferenceScreen>
