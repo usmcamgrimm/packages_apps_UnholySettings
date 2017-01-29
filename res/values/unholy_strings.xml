@@ -245,6 +245,18 @@
     <string name="quick_pulldown_right">Right</string>
     <string name="quick_pulldown_always">Always</string>
 
+    <!-- Recent clear all button and location -->
+    <string name="show_clear_all_recents_button_title">Clear all button</string>
+    <string name="show_clear_all_recents_button_summary_on">Show clear all button</string>
+    <string name="show_clear_all_recents_button_summary_off">Show AOSP clear all</string>
+    <string name="recents_clear_all_location_title">Clear all button location</string>
+    <string name="recents_clear_all_location_top_right">Top right</string>
+    <string name="recents_clear_all_location_top_left">Top left</string>
+    <string name="recents_clear_all_location_top_center">Top center</string>
+    <string name="recents_clear_all_location_bottom_right">Bottom right</string>
+    <string name="recents_clear_all_location_bottom_left">Bottom left</string>
+    <string name="recents_clear_all_location_bottom_center">Bottom center</string>
+
     <!-- Tiles animation style  -->
     <string name="quicksettings_tiles_category">Tile animation options</string>
     <string name="qs_tile_animation_style_title">Tiles animation style</string>
