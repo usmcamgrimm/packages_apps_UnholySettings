@@ -50,6 +50,10 @@
         android:defaultValue="true"	/> 
 
     <com.unholy.settings.preference.SystemSettingSwitchPreference
+        android:key="keyguard_show_clock"
+        android:title="@string/keyguard_statusbar_clock_title" />
+
+    <com.unholy.settings.preference.SystemSettingSwitchPreference
         android:key="keyguard_toggle_torch"
         android:title="@string/keyguard_torch_title"
         android:defaultValue="false" />

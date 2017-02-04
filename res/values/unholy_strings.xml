@@ -785,4 +785,8 @@
     <!-- Statusbar brightness -->
     <string name="status_bar_toggle_brightness">Brightness control</string>
     <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
+
+    <!-- Keyguard Statusbar Clock -->
+    <string name="keyguard_statusbar_clock_title">Statusbar clock</string>
+    <string name="keyguard_statusbar_clock_summary">Show the left statusbar clock on the keyguard</string>
 </resources>
