@@ -23,7 +23,7 @@
     <string name="statusbar_settings_title">Statusbar</string>
 
 	<!-- Battery customizations -->
-    <string name="status_bar_battery_style_category">Battery</string>
+    <string name="status_bar_battery_style_category">Battery options</string>
     <string name="status_bar_battery_style_title">Battery status style</string>
     <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
     <string name="status_bar_battery_style_icon_landscape">Icon landscape</string>
@@ -37,7 +37,6 @@
 
     <!-- Clock settings -->
     <string name="clock_settings_title">Clock settings</string>
-    <string name="clock_settings_summary">Custom clock and date options</string>
 
     <!-- clock date options -->
     <string name="clock_title_enable">Alignment</string>
