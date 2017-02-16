@@ -24,6 +24,9 @@
     <string name="multitasking_settings_title">Multitasking</string>
     <string name="statusbar_settings_title">Statusbar</string>
     <string name="volume_title">Volume rockers</string>
+    <string name="notification_lights">Notification Lights</string>
+    <string name="led_settings">LED Settings"</string>
+    <string name="lights_settings">Lights</string>
 
     <!-- Immersive recents -->
     <string name="immersive_recents_category">Recents options</string>
@@ -142,6 +145,8 @@
     <string name="profiles_add">Add...</string>
 
     <!-- Notification light dialogs -->
+    <string name="notification_light_title">Notification Lights</string>
+    <string name="battery_light_settings">Battery Light</string>
     <string name="edit_light_settings">Edit light settings</string>
     <string name="pulse_speed_title">Pulse length and speed</string>
     <string name="default_time">Normal</string>
