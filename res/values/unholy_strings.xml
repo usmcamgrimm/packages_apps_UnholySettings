@@ -12,7 +12,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Unholy Settings -->
-    <string name="unholy_title">Unholy Settings</string>
+    <string name="unholy_title">Unholy settings</string>
 
     <!-- General strings -->
     <string name="cancel">Cancel</string>
@@ -23,9 +23,10 @@
     <string name="lockscreen_settings_title">Lockscreen</string>
     <string name="multitasking_settings_title">Multitasking</string>
     <string name="statusbar_settings_title">Statusbar</string>
+	<string name="hardware_settings_title">Hardware</string>
     <string name="volume_title">Volume rocker</string>
     <string name="notification_lights">Notification and battery lights</string>
-    <string name="led_settings">LED Settings"</string>
+    <string name="led_settings">LED settings"</string>
     <string name="lights_settings">Lights</string>
 
     <!-- Immersive recents -->
@@ -123,10 +124,10 @@
     <string name="color_picker_help_do_not_show_title">Don\'t show again</string>
     <string name="color_picker_help_button_ok_title">OK</string>
 
-     <!-- LED notifications -->
+    <!-- LED notifications -->
     <string name="omni_battery_light_settings">Battery charging light</string>
     <string name="omni_notification_light_settings">Notifications light</string>
-    <string name="omni_leds">LED Lights</string>
+    <string name="omni_leds">LED lights</string>
     <string name="batterylight_title">Battery LED settings</string>
     <string name="battery_light_enable">Enable</string>
     <string name="battery_low_pulse_title">Pulse if battery low</string>
@@ -219,7 +220,6 @@
     <string name="lock_clock_font_condensed_light_italic">Roboto Condensed Light Italic</string>
     
     <!-- Lockscreen items clock, date, alarm text -->
-    <string name="lockscreen_items_settings_title">Lockscreen items</string>
     <string name="lockscreen_clock_title">Lockscreen clock</string>
     <string name="lockscreen_date_title">Lockscreen date</string>
     <string name="lockscreen_alarm_title">Lockscreen alarm text</string>

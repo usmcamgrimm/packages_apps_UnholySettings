@@ -14,6 +14,12 @@
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
         android:title="@string/unholy_title" >
 
+    <!-- Hardware-->
+    <PreferenceScreen
+        android:fragment="com.unholy.settings.fragments.HardwareSettings"
+        android:key="hardware_settings"
+        android:title="@string/hardware_settings_title" />
+
     <!-- Lockscreen -->
     <PreferenceScreen
         android:fragment="com.unholy.settings.fragments.LockScreenSettings"
@@ -37,11 +43,5 @@
         android:fragment="com.unholy.settings.fragments.StatusBarSettings"
         android:key="unholy_statusbar_settings"
         android:title="@string/statusbar_settings_title"/>
-
-    <!-- Volume Rocker -->
-    <PreferenceScreen
-         android:key="volume_key"
-         android:title="@string/volume_title"
-         android:fragment="com.unholy.settings.fragments.VolumeRockerSettings"/>
 
 </PreferenceScreen>

@@ -37,7 +37,7 @@ public class LockScreenItemsSettings extends SettingsPreferenceFragment implemen
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.lockscreen_items_settings);
+        addPreferencesFromResource(R.xml.lockscreen_settings);
         PreferenceScreen prefScreen = getPreferenceScreen();
         ContentResolver resolver = getActivity().getContentResolver();
 
