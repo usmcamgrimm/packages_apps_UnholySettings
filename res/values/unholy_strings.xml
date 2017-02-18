@@ -23,14 +23,14 @@
     <string name="lockscreen_settings_title">Lockscreen</string>
     <string name="multitasking_settings_title">Multitasking</string>
     <string name="statusbar_settings_title">Statusbar</string>
-    <string name="volume_title">Volume rockers</string>
-    <string name="notification_lights">Notification Lights</string>
+    <string name="volume_title">Volume rocker</string>
+    <string name="notification_lights">Notification and battery lights</string>
     <string name="led_settings">LED Settings"</string>
     <string name="lights_settings">Lights</string>
 
     <!-- Immersive recents -->
     <string name="immersive_recents_category">Recents options</string>
-    <string name="immersive_recents_title">Immersive Recents</string>
+    <string name="immersive_recents_title">Immersive recents</string>
     <string name="immersive_recents_default">Default</string>
     <string name="immersive_recents_fullscreen">Fullscreen</string>
     <string name="immersive_recents_statusbar">Statusbar only</string>
@@ -145,8 +145,8 @@
     <string name="profiles_add">Add...</string>
 
     <!-- Notification light dialogs -->
-    <string name="notification_light_title">Notification Lights</string>
-    <string name="battery_light_settings">Battery Light</string>
+    <string name="notification_light_title">Notification lights</string>
+    <string name="battery_light_settings">Battery light</string>
     <string name="edit_light_settings">Edit light settings</string>
     <string name="pulse_speed_title">Pulse length and speed</string>
     <string name="default_time">Normal</string>
@@ -195,12 +195,10 @@
     <string name="reset">Reset</string>
 
     <!-- Lockscreen battery info indicator  -->
-    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
-    <string name="lockscreen_battery_info_summary">Display realtime charger current, voltage, and battery temperature on lockscreen while charging</string>    
+    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>    
 
     <!-- Lockscreen clock fonts -->
     <string name="lock_clock_font_title">Lockscreen clock font</string>
-    <string name="lock_clock_font_summary">Change the default font of the lockscreen clock widget</string>
     <string name="lock_clock_font_normal">Roboto</string>
     <string name="lock_clock_font_bold">Roboto Bold</string>
     <string name="lock_clock_font_italic">Roboto Italic</string>
@@ -221,18 +219,16 @@
     <string name="lock_clock_font_condensed_light_italic">Roboto Condensed Light Italic</string>
     
     <!-- Lockscreen items clock, date, alarm text -->
-    <string name="lockscreen_items_settings_title">Lockscreen Items</string>
+    <string name="lockscreen_items_settings_title">Lockscreen items</string>
     <string name="lockscreen_clock_title">Lockscreen clock</string>
     <string name="lockscreen_date_title">Lockscreen date</string>
     <string name="lockscreen_alarm_title">Lockscreen alarm text</string>
 
     <!-- Lockscreen torch -->
     <string name="keyguard_torch_title">Lockscreen torch</string>
-    <string name="keyguard_torch_summary">Longpress power button with screen off turns on torch</string>
 
     <!-- Lockscreen cover art -->
     <string name="media_art_title">Media cover art</string>
-    <string name="media_art_summary">Enable media cover art on the lockscreen</string>
 
     <!--SystemUI tuner-->
     <string name="statusbar_items_category">SystemUI statusbar options</string>
@@ -254,6 +250,5 @@
      
     <!-- Volume button orientation based on current rotation -->
     <string name="swap_volume_buttons_title">Swap volume rocker orientation</string>
-    <string name="swap_volume_buttons_summary">Adjust the rocker orientation based on current rotation</string>
 
 </resources>

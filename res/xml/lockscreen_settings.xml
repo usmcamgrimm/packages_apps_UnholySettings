@@ -25,19 +25,16 @@
     <com.unholy.settings.preference.SystemSettingSwitchPreference
         android:key="keyguard_toggle_torch"
         android:title="@string/keyguard_torch_title"
-        android:summary="@string/keyguard_torch_summary"
         android:defaultValue="false" />
 
     <com.unholy.settings.preference.SystemSettingSwitchPreference
         android:key="lockscreen_media_metadata"
-        android:title="@string/media_art_title"
-        android:summary="@string/media_art_summary" 
+        android:title="@string/media_art_title" 
         android:persistent="true" />
 
     <com.unholy.settings.preference.SystemSettingSwitchPreference
         android:key="lockscreen_battery_info"
         android:title="@string/lockscreen_battery_info_title"
-        android:summary="@string/lockscreen_battery_info_summary"
         android:defaultValue="true" />
 
 </PreferenceScreen>
