@@ -14,7 +14,13 @@
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
         android:title="@string/unholy_title" >
 
-    <!-- Hardware-->
+    <!-- Gestures -->
+    <PreferenceScreen
+        android:fragment="com.unholy.settings.gestures.GestureSettings"
+        android:key="gesture_settings"
+        android:title="@string/gesture_preference_title" />
+
+    <!-- Hardware -->
     <PreferenceScreen
         android:fragment="com.unholy.settings.fragments.HardwareSettings"
         android:key="hardware_settings"
