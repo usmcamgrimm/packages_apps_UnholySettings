@@ -38,5 +38,3 @@ public class MultitaskingSettings extends SettingsPreferenceFragment {
         return MetricsEvent.UNHOLY_SETTINGS;
     }
 }
-
-0

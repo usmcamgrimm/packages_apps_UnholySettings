@@ -83,5 +83,3 @@ public class RecentSettings extends SettingsPreferenceFragment
         return false;
     }
 }
-
-0
