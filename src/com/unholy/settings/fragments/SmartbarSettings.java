@@ -19,10 +19,7 @@ package com.unholy.settings.fragments;
 import java.io.File;
 import java.io.FileFilter;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 
 import android.app.AlertDialog;
@@ -30,17 +27,14 @@ import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.DialogInterface.OnClickListener;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.UserHandle;
 import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
-import android.support.v7.preference.PreferenceScreen;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.provider.Settings;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -96,7 +90,7 @@ public class SmartbarSettings extends SettingsPreferenceFragment implements
         mSmartBarContext.setOnPreferenceChangeListener(this);
 
         int imeVal = Settings.Secure.getIntForUser(getContentResolver(),
-                "smartbar_ime_hint_mode", 1, UserHandle.USER_CURRENT);
+                "smartbar_ime_hint_mode", 0, UserHandle.USER_CURRENT);
         mImeActions = (ListPreference) findPreference("smartbar_ime_action");
         mImeActions.setValue(String.valueOf(imeVal));
         mImeActions.setOnPreferenceChangeListener(this);
@@ -256,11 +250,11 @@ public class SmartbarSettings extends SettingsPreferenceFragment implements
 
     private void resetSmartbar() {
         ArrayList<ButtonConfig> buttonConfigs = Config.getDefaultConfig(
-               getActivity(),
-        ActionConstants.getDefaults(ActionConstants.SMARTBAR));
-               Config.setConfig(getActivity(),
-        ActionConstants.getDefaults(ActionConstants.SMARTBAR),
-               buttonConfigs);
+                getActivity(),
+                ActionConstants.getDefaults(ActionConstants.SMARTBAR));
+        Config.setConfig(getActivity(),
+                ActionConstants.getDefaults(ActionConstants.SMARTBAR),
+                buttonConfigs);
         Intent intent = new Intent("intent_navbar_edit");
         intent.putExtra("extra_navbar_edit_reset_layout", "resetMePlox");
         getActivity().sendBroadcastAsUser(intent, UserHandle.CURRENT);
@@ -271,8 +265,8 @@ public class SmartbarSettings extends SettingsPreferenceFragment implements
         mSmartBarContext.setOnPreferenceChangeListener(this);
 
         Settings.Secure.putInt(getContentResolver(),
-                "smartbar_ime_hint_mode", 1);
-        mImeActions.setValue(String.valueOf(1));
+                "smartbar_ime_hint_mode", 0);
+        mImeActions.setValue(String.valueOf(0));
         mImeActions.setOnPreferenceChangeListener(this);
 
         Settings.Secure.putInt(getContentResolver(),
@@ -397,6 +391,6 @@ public class SmartbarSettings extends SettingsPreferenceFragment implements
 
     @Override
     protected int getMetricsCategory() {
-        return MetricsEvent.DIRTYTWEAKS;
+        return MetricsEvent.UNHOLY_SETTINGS;
     }
 }
