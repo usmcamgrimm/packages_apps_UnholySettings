@@ -41,8 +41,6 @@
     <color name="purple">#ff800080</color>
     <color name="yellow">#ffffff00</color>
     <color name="orange">#ffffa500</color>
-    <color name="theme_accent">#ff009688</color>
-    <color name="action_picker_fab_background">@color/theme_accent</color>
 
     <!-- Colors of the help screen -->
     <color name="color_picker_help_screen_background">#e0000000</color>
