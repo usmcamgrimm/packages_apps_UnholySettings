@@ -44,6 +44,12 @@
         android:key="unholy_multitasking_settings"
         android:title="@string/multitasking_settings_title"/>
 
+    <!-- Navbar Settings -->
+    <PreferenceScreen
+        android:fragment="com.unholy.settings.fragments.NavbarSettings"
+        android:key="navigation_category"
+        android:title="@string/navigation_category" />
+
     <!-- Notifications -->
     <PreferenceScreen
         android:fragment="com.unholy.settings.fragments.Notifications"

@@ -34,6 +34,7 @@
     <string name="statusbar_notifications_category">Statusbar notifications</string>
     <string name="unholy_logo_settings_title">Unholy custom logo</string>
     <string name="button_settings">Button settings</string>
+    <string name="navigation_category">Navbar settings</string>
 
     <!-- Immersive recents -->
     <string name="immersive_recents_category">Recents options</string>
