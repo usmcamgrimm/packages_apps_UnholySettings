@@ -162,5 +162,6 @@ public class ButtonSettings extends ActionFragment implements OnPreferenceChange
             setActionPreferencesEnabled(!value);
             return true;
         }
+        return false;
     }
 }
