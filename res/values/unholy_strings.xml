@@ -669,7 +669,7 @@
     <!-- Volume key controls media stream -->
     <string name="volume_keys_control_media_stream_title">Volume keys control media volume</string>
 
-    <!-- Statusbar Screw'd logo -->
+    <!-- Statusbar Unholy logo -->
     <string name="status_bar_unholy_logo_title">Unholy logo</string>
     <string name="status_bar_unholy_logo_summary">Enable unholy logo on the statusbar</string>
     <string name="status_bar_unholy_logo_color">Unholy logo color</string>
@@ -677,4 +677,9 @@
     <string name="status_bar_unholy_logo_position_summary">Choose which side to display the logo on, left or right</string>
     <string name="status_bar_logo_position_right">Right</string>
     <string name="status_bar_logo_position_left">Left</string>
+
+    <!-- Statusbar brightness -->
+    <string name="status_bar_toggle_brightness">Brightness control</string>
+    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
+
 </resources>
