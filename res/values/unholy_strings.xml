@@ -470,6 +470,9 @@
     <string name="heads_up_snooze_15min">15 minutes</string>
     <string name="heads_up_snooze_20min">20 minutes</string>
 
+     <!-- Dialer force heads up -->
+     <string name="always_headsup_dialer_title">Force heads up for dialer</string>
+
     <!-- Navigation Bar -->
     <string name="navbar_interface_title">Interface</string>
     <string name="navbar_size">Bar size</string>
