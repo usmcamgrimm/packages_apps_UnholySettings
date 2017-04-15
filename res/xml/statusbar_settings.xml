@@ -40,4 +40,9 @@
                 android:targetClass="com.android.systemui.tuner.TunerActivity" />
     </PreferenceScreen>
 
+    <PreferenceScreen
+        android:key="unholy_logo_settings"
+        android:fragment="com.unholy.settings.fragments.UnholyLogo"
+        android:title="@string/unholy_logo_settings_title" />
+
 </PreferenceScreen>

@@ -234,18 +234,18 @@
     <string name="reset">Reset</string>
 
     <!-- Lockscreen battery info indicator  -->
-    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>    
+    <string name="lockscreen_battery_info_title">Charging info</string>    
 
     <!-- Lockscreen items clock, date, alarm text -->
-    <string name="lockscreen_clock_title">Lockscreen clock</string>
-    <string name="lockscreen_date_title">Lockscreen date</string>
-    <string name="lockscreen_alarm_title">Lockscreen alarm text</string>
+    <string name="lockscreen_clock_title">Clock</string>
+    <string name="lockscreen_date_title">Date</string>
+    <string name="lockscreen_alarm_title">Alarm text</string>
 
     <!-- Lockscreen torch -->
-    <string name="keyguard_torch_title">Lockscreen torch</string>
+    <string name="keyguard_torch_title">Torch</string>
 
     <!-- Lockscreen cover art -->
-    <string name="media_art_title">Media cover art</string>
+    <string name="media_art_title">Album cover art</string>
 
     <!-- QS settings -->
     <string name="status_bar_expanded_qs_settings">QS tiles layout</string>

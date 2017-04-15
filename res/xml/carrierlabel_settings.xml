@@ -27,9 +27,4 @@
         android:key="custom_carrier_label"
         android:title="@string/custom_carrier_label_title" />
 
-    <PreferenceScreen
-        android:key="unholy_logo_settings"
-        android:fragment="com.unholy.settings.fragments.UnholyLogo"
-        android:title="@string/unholy_logo_settings_title" />
-
 </PreferenceScreen>

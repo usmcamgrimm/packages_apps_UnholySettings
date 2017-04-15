@@ -17,15 +17,15 @@
     android:title="@string/misc_settings_title" >
 
     <com.unholy.settings.preference.SystemSettingSwitchPreference
-        android:key="bluetooth_show_battery"
-        android:title="@string/bluetooth_battery_title"
-        android:summary="@string/bluetooth_battery_summary"
-        android:defaultValue="false" />
-
-    <com.unholy.settings.preference.SystemSettingSwitchPreference
         android:key="headset_connect_player"
         android:title="@string/headset_connect_player_title"
         android:summary="@string/headset_connect_player_summary"
+        android:defaultValue="false" />
+
+    <com.unholy.settings.preference.SystemSettingSwitchPreference
+        android:key="bluetooth_show_battery"
+        android:title="@string/bluetooth_battery_title"
+        android:summary="@string/bluetooth_battery_summary"
         android:defaultValue="false" />
 
     <ListPreference
