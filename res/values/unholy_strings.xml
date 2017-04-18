@@ -649,6 +649,10 @@
     <string name="hardware_keys_category">Navigation buttons</string>
     <string name="hardware_keys_disable_title">Disable navigation buttons</string>
 
+    <!-- Fingerprint unlock keystore -->
+    <string name="fp_unlock_keystore_title">Fingerprint unlock</string>
+    <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without pin/password/pattern</string>
+
     <!-- DUI Double Tap to Sleep -->
     <string name="smartbar_doubletap_sleep_title">Double tap to sleep</string>
     <string name="smartbar_doubletap_sleep_summary">Double tap on navbar empty areas to switch off the screen</string>

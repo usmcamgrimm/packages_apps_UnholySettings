@@ -27,13 +27,19 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.unholy.settings.utils.Utils;
 import com.unholy.settings.preference.SystemSettingSwitchPreference;
 
+import android.hardware.fingerprint.FingerprintManager;
+
 public class LockScreenSettings extends SettingsPreferenceFragment {
 
     private static final int MY_USER_ID = UserHandle.myUserId();
 
     private static final String KEYGUARD_TORCH = "keyguard_toggle_torch";
+    private static final String FP_UNLOCK_KEYSTORE = "fp_unlock_keystore";
+
+    private FingerprintManager mFingerprintManager;
 
     private SystemSettingSwitchPreference mLsTorch;
+    private SystemSettingSwitchPreference mFpKeystore;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -45,6 +51,12 @@ public class LockScreenSettings extends SettingsPreferenceFragment {
         if (!Utils.deviceSupportsFlashLight(getActivity())) {
             prefScreen.removePreference(mLsTorch);
         }
+
+        mFingerprintManager = (FingerprintManager) getActivity().getSystemService(Context.FINGERPRINT_SERVICE);
+        mFpKeystore = (SystemSettingSwitchPreference) findPreference(FP_UNLOCK_KEYSTORE);
+        if (!mFingerprintManager.isHardwareDetected()){
+            prefScreen.removePreference(mFpKeystore);
+        }
     }
 
     @Override
@@ -52,4 +64,3 @@ public class LockScreenSettings extends SettingsPreferenceFragment {
         return MetricsEvent.UNHOLY_SETTINGS;
     }
 }
-

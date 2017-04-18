@@ -47,4 +47,10 @@
         android:title="@string/keyguard_torch_title"
         android:defaultValue="false" />
 
+    <com.unholy.settings.preference.SystemSettingSwitchPreference
+        android:key="fp_unlock_keystore"
+        android:title="@string/fp_unlock_keystore_title"
+        android:summary="@string/fp_unlock_keystore_summary"
+        android:persistent="true" />
+
 </PreferenceScreen>
