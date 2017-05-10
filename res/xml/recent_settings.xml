@@ -21,7 +21,12 @@
         android:title="@string/immersive_recents_title"
         android:entries="@array/immersive_recents_entries"
         android:entryValues="@array/immersive_recents_values"
-        android:persistent="false" />    
+        android:persistent="false" />
+
+    <com.unholy.settings.preference.SystemSettingSwitchPreference
+        android:key="recents_use_grid"
+        android:title="@string/recents_use_grid_title"
+        android:defaultValue="false" />
 
     <com.unholy.settings.preference.SystemSettingSwitchPreference
         android:key="show_clear_all_recents"
@@ -38,4 +43,4 @@
         android:defaultValue="3"
         android:dependency="show_clear_all_recents" />
 
-</PreferenceScreen> 
+</PreferenceScreen>
