@@ -161,7 +161,12 @@
 
     <!-- Launch music player when headset is connected -->
     <string name="headset_connect_player_title">Launch music player app</string>
-    <string name="headset_connect_player_summary">Launch the default music app when headset is connected</string>
+    <string name="headset_connect_player_disabled">Disabled</string>
+    <string name="headset_connect_player_wired">When wired headset is plugged in</string>
+    <string name="headset_connect_player_bt_no_carkit">When BT headset (no carkit) is connected</string>
+    <string name="headset_connect_player_bt">When BT headset is connected</string>
+    <string name="headset_connect_player_both_no_carkit">When wired or BT headset (no carkit) is connected</string>
+    <string name="headset_connect_player_both">When wired or BT headset is connected</string>
 
     <!-- LED notifications -->
     <string name="omni_battery_light_settings">Battery charging light</string>
@@ -295,7 +300,7 @@
     <string name="qs_date_time_center_title">Center date and time</string>
     <string name="qs_date_time_center_summary">Requires one or more icons to be disabled</string>
 
-	<!-- QS Header images -->
+    <!-- QS Header images -->
     <string name="qs_header_category">Header custom images</string>
     <string name="status_bar_custom_header_title">Custom header image</string>
     <string name="status_bar_custom_header_summary">Enable notification panel header image</string>
@@ -456,7 +461,7 @@
     <string name="bluetooth_battery_title">Show Bluetooth battery status</string>
     <string name="bluetooth_battery_summary">Show battery status for the currently connected bluetooth device, if available.</string>
 
-	<!-- Wifi toggle -->
+    <!-- Wifi toggle -->
     <string name="qs_wifi_easy_toggle_title">Advanced WiFi tile</string>
 
     <!-- Heads up settings -->
@@ -704,5 +709,4 @@
     <!-- Statusbar brightness -->
     <string name="status_bar_toggle_brightness">Brightness control</string>
     <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
-
 </resources>

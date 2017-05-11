@@ -16,8 +16,10 @@
 
 package com.unholy.settings.fragments;
 
+import android.content.ContentResolver;
 import android.os.Bundle;
 import android.os.SystemProperties;
+import android.os.UserHandle;
 import android.provider.Settings;
 import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
@@ -33,36 +35,55 @@ import com.android.settings.SettingsPreferenceFragment;
 public class MiscSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
+    private static final String HEADSET_CONNECT_PLAYER = "headset_connect_player";
     private static final String SCROLLINGCACHE_PREF = "pref_scrollingcache";
     private static final String SCROLLINGCACHE_PERSIST_PROP = "persist.sys.scrollingcache";
     private static final String SCROLLINGCACHE_DEFAULT = "1";
 
+    private ListPreference mLaunchPlayerHeadsetConnection;
     private ListPreference mScrollingCachePref;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.misc_settings);
+        final ContentResolver resolver = getActivity().getContentResolver();
         PreferenceScreen prefScreen = getPreferenceScreen();
-		
+        
         mScrollingCachePref = (ListPreference) findPreference(SCROLLINGCACHE_PREF);
         mScrollingCachePref.setValue(SystemProperties.get(SCROLLINGCACHE_PERSIST_PROP,
                 SystemProperties.get(SCROLLINGCACHE_PERSIST_PROP, SCROLLINGCACHE_DEFAULT)));
         mScrollingCachePref.setSummary(mScrollingCachePref.getEntry());
         mScrollingCachePref.setOnPreferenceChangeListener(this);
+
+        mLaunchPlayerHeadsetConnection = (ListPreference) findPreference(HEADSET_CONNECT_PLAYER);
+        int mLaunchPlayerHeadsetConnectionValue = Settings.System.getIntForUser(resolver,
+                Settings.System.HEADSET_CONNECT_PLAYER, 0, UserHandle.USER_CURRENT);
+        mLaunchPlayerHeadsetConnection.setValue(Integer.toString(mLaunchPlayerHeadsetConnectionValue));
+        mLaunchPlayerHeadsetConnection.setSummary(mLaunchPlayerHeadsetConnection.getEntry());
+        mLaunchPlayerHeadsetConnection.setOnPreferenceChangeListener(this);
     }
 
     @Override
-    public boolean onPreferenceChange(Preference preference, Object objValue) {
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        final ContentResolver resolver = getActivity().getContentResolver();
         if (preference == mScrollingCachePref) {
-            if (objValue != null) {
-            String ScrollingCache = (String) objValue;
+            if (newValue != null) {
+            String ScrollingCache = (String) newValue;
             SystemProperties.set(SCROLLINGCACHE_PERSIST_PROP, ScrollingCache);
             int ScrollingCacheIndex = mScrollingCachePref
                     .findIndexOfValue(ScrollingCache);
             mScrollingCachePref
                     .setSummary(mScrollingCachePref.getEntries()[ScrollingCacheIndex]);
             }
+            return true;
+        } else if (preference == mLaunchPlayerHeadsetConnection) {
+            int mLaunchPlayerHeadsetConnectionValue = Integer.valueOf((String) newValue);
+            int index = mLaunchPlayerHeadsetConnection.findIndexOfValue((String) newValue);
+            mLaunchPlayerHeadsetConnection.setSummary(
+                    mLaunchPlayerHeadsetConnection.getEntries()[index]);
+            Settings.System.putIntForUser(resolver, Settings.System.HEADSET_CONNECT_PLAYER,
+                    mLaunchPlayerHeadsetConnectionValue, UserHandle.USER_CURRENT);
             return true;
         }
         return false;

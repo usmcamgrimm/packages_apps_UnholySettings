@@ -16,11 +16,11 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/misc_settings_title" >
 
-    <com.unholy.settings.preference.SystemSettingSwitchPreference
+    <ListPreference
         android:key="headset_connect_player"
         android:title="@string/headset_connect_player_title"
-        android:summary="@string/headset_connect_player_summary"
-        android:defaultValue="false" />
+        android:entries="@array/headset_connect_player_entries"
+        android:entryValues="@array/headset_connect_player_values" />
 
     <com.unholy.settings.preference.SystemSettingSwitchPreference
         android:key="bluetooth_show_battery"
