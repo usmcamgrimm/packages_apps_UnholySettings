@@ -29,6 +29,7 @@
     <string name="led_settings">LED settings"</string>
     <string name="lights_settings">Lights</string>
     <string name="quicksettings_category">Quick settings</string>
+    <string name="quicksettings_header_category">QS header icon options</string>
     <string name="misc_settings_title">Misc settings</string>
     <string name="statusbar_notifications_category">Statusbar notifications</string>
     <string name="unholy_logo_settings_title">Unholy custom logo</string>
