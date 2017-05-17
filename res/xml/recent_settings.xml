@@ -26,7 +26,7 @@
     <com.unholy.settings.preference.SystemSettingSwitchPreference
         android:key="recents_use_grid"
         android:title="@string/recents_use_grid_title"
-        android:defaultValue="false" />
+        android:defaultValue="true" />
 
     <com.unholy.settings.preference.SystemSettingSwitchPreference
         android:key="show_clear_all_recents"
