@@ -32,7 +32,7 @@
     <string name="quicksettings_header_category">QS header icon options</string>
     <string name="misc_settings_title">Misc settings</string>
     <string name="statusbar_notifications_category">Statusbar notifications</string>
-    <string name="unholy_logo_settings_title">Unholy custom logo</string>
+    <string name="unholy_logo_settings_title">Unholy logo</string>
     <string name="button_settings">Button settings</string>
     <string name="navigation_category">Navbar settings</string>
     <string name="traffic_category">Network traffic</string>
