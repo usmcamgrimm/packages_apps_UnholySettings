@@ -37,7 +37,7 @@
     <com.unholy.settings.preference.SystemSettingSwitchPreference
             android:key="volume_rocker_music_controls"
             android:title="@string/volume_rocker_music_controls_title"
-            android:defaultValue="true" />
+            android:defaultValue="false" />
 
     <com.unholy.settings.preference.SystemSettingSwitchPreference
             android:key="swap_volume_buttons"
