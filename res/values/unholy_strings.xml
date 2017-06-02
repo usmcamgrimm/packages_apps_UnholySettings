@@ -305,7 +305,7 @@
     <string name="qs_date_time_center_summary">Requires one or more icons to be disabled</string>
 
     <!-- QS Header images -->
-    <string name="qs_header_category">Header custom images</string>
+    <string name="qs_header_category">Header image options</string>
     <string name="status_bar_custom_header_title">Custom header image</string>
     <string name="status_bar_custom_header_summary">Enable notification panel header image</string>
     <string name="daylight_header_pack_title">Header image pack</string>
