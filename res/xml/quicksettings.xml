@@ -27,7 +27,7 @@
         android:key="qs_data_advanced"
         android:title="@string/qs_advanced_data_title"
         android:defaultValue="false" />
-        
+
     <com.unholy.settings.preference.SecureSettingSwitchPreference
          android:key="qs_wifi_easy_toggle"
          android:title="@string/qs_wifi_easy_toggle_title"

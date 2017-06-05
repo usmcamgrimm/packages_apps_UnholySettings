@@ -429,11 +429,11 @@
     <string name="gesture_setting_on">On</string>
     <string name="gesture_setting_off">Off</string>
 
-   <!-- Label for tap to wake setting [CHAR LIMIT=30] -->
-   <string name="tap_to_wake">Tap to wake</string>
+    <!-- Label for tap to wake setting [CHAR LIMIT=30] -->
+    <string name="tap_to_wake">Tap to wake</string>
 
-   <!-- Summary for take to wake setting [CHAR LIMIT=90] -->
-   <string name="tap_to_wake_summary">Double-tap anywhere on the screen to wake device</string>
+    <!-- Summary for take to wake setting [CHAR LIMIT=90] -->
+    <string name="tap_to_wake_summary">Double-tap anywhere on the screen to wake device</string>
 
     <!-- Double Tap to Sleep -->
     <string name="double_tap_sleep_anywhere_title">Tap lockscreen to sleep</string>
@@ -536,7 +536,6 @@
     <string name="action_entry_default_action">Default settings</string>
     <string name="action_entry_select_app">Select application</string>
     <string name="action_entry_custom_action">Select custom action</string>
-
     <string name="action_value_default_action" translatable="false">default</string>
     <string name="action_value_select_app" translatable="false">app</string>
     <string name="action_value_custom_action" translatable="false">custom</string>
