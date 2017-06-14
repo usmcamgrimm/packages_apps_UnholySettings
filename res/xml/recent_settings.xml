@@ -57,7 +57,6 @@
             android:key="slim_recent_panel"
             android:fragment="com.unholy.settings.fragments.SlimRecentPanel"
             android:title="@string/slim_recents_settings_title"
-            android:summary="@string/slim_recents_settings_summary"
             android:dependency="use_slim_recents"
             android:persistent="false" />
 
