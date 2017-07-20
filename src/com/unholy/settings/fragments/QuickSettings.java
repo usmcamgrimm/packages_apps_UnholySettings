@@ -65,6 +65,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
     private static final String CUSTOM_HEADER_IMAGE_SHADOW = "status_bar_custom_header_shadow";
     private static final String CUSTOM_HEADER_PROVIDER = "custom_header_provider";
     private static final String CUSTOM_HEADER_BROWSE = "custom_header_browse";
+    private static final String HEADER_TIME_DATE = "qs_date_time_center";
 
     private ListPreference mTileAnimationStyle;
     private ListPreference mTileAnimationDuration;
@@ -72,6 +73,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
     private ListPreference mQuickPulldown;
     private ListPreference mDaylightHeaderPack;
     private ListPreference mHeaderProvider;
+    private ListPreference mHeaderClock;
     private CustomSeekBarPreference mHeaderShadow;
     private PreferenceScreen mHeaderBrowse;
     private String mDaylightHeaderProvider;
@@ -159,7 +161,13 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
         mDaylightHeaderPack.setEnabled(providerName.equals(mDaylightHeaderProvider));
 
         mHeaderBrowse = (PreferenceScreen) findPreference(CUSTOM_HEADER_BROWSE);
-        mHeaderBrowse.setEnabled(isBrowseHeaderAvailable());      
+        mHeaderBrowse.setEnabled(isBrowseHeaderAvailable());
+
+        mHeaderClock = (ListPreference) findPreference(HEADER_TIME_DATE);
+        mHeaderClock.setOnPreferenceChangeListener(this);
+        int headerClockValue = Settings.System.getInt(getContentResolver(),
+                Settings.System.QS_DATE_TIME_CENTER , 1);
+        mHeaderClock.setValue(String.valueOf(headerClockValue));
 
     }
 
@@ -208,18 +216,22 @@ public class QuickSettings extends SettingsPreferenceFragment implements OnPrefe
             int valueIndex = mDaylightHeaderPack.findIndexOfValue(value);
             mDaylightHeaderPack.setSummary(mDaylightHeaderPack.getEntries()[valueIndex]);
             return true;
-         } else if (preference == mHeaderShadow) {
+        } else if (preference == mHeaderShadow) {
             int headerShadow = (Integer) newValue;
             Settings.System.putInt(resolver,
                     Settings.System.STATUS_BAR_CUSTOM_HEADER_SHADOW, headerShadow);
             return true;
-         } else if (preference == mHeaderProvider) {
+        } else if (preference == mHeaderProvider) {
             String value = (String) newValue;
             Settings.System.putString(resolver,
                     Settings.System.STATUS_BAR_CUSTOM_HEADER_PROVIDER, value);
             int valueIndex = mHeaderProvider.findIndexOfValue(value);
             mHeaderProvider.setSummary(mHeaderProvider.getEntries()[valueIndex]);
             mDaylightHeaderPack.setEnabled(value.equals(mDaylightHeaderProvider));
+            return true;
+        } else if (preference == mHeaderClock) {
+            int headervalue = Integer.valueOf((String) newValue);
+            Settings.System.putInt(getContentResolver(), Settings.System.QS_DATE_TIME_CENTER , headervalue);
             return true;
         }
         return false;

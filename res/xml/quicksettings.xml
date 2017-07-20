@@ -55,6 +55,14 @@
         android:entryValues="@array/quick_pulldown_values"
         android:persistent="false" />
 
+    <ListPreference
+        android:key="qs_date_time_center"
+        android:title="@string/qs_date_time_center_title"
+        android:summary="@string/qs_date_time_center_summary"
+        android:entries="@array/qs_date_time_entries"
+        android:entryValues="@array/qs_date_time_values"
+        android:persistent="false" />
+
     </PreferenceCategory>
 
     <PreferenceScreen
