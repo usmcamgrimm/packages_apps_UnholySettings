@@ -27,17 +27,17 @@
         android:entries="@array/headset_connect_player_entries"
         android:entryValues="@array/headset_connect_player_values" />
 
-    <com.unholy.settings.preference.SystemSettingSwitchPreference
-        android:key="bluetooth_show_battery"
-        android:title="@string/bluetooth_battery_title"
-        android:summary="@string/bluetooth_battery_summary"
-        android:defaultValue="false" />
-
     <ListPreference
         android:key="pref_scrollingcache"
         android:dialogTitle="@string/pref_scrollingcache_title"
         android:title="@string/pref_scrollingcache_title"
         android:entries="@array/entries_scrollingcache"
         android:entryValues="@array/values_scrollingcache" />
+
+    <com.unholy.settings.preference.SystemSettingSwitchPreference
+        android:key="bluetooth_show_battery"
+        android:title="@string/bluetooth_battery_title"
+        android:summary="@string/bluetooth_battery_summary"
+        android:defaultValue="false" />
 
 </PreferenceScreen>
