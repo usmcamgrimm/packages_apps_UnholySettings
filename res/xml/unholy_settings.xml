@@ -15,7 +15,7 @@
         android:title="@string/unholy_title" >
 
     <!-- Hardware -->
-    <PreferenceScreen
+    <Preference
         android:key="hardware_category"
         android:title="@string/hardware"
         android:fragment="com.unholy.settings.fragments.HardwareSettings"/>
