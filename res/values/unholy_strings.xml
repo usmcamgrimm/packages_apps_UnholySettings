@@ -54,4 +54,7 @@
     <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
     <string name="lockscreen_battery_info_summary">Display max current, voltage, and battery temperature on lockscreen while charging</string>
 
+    <!-- QS pulldown -->
+    <string name="status_bar_quick_qs_pulldown">Quick pulldown</string>
+
 </resources>
