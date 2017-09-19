@@ -16,4 +16,5 @@
 
     <!-- Settings Categories -->
     <string name="hardware_settings">Hardware</string>
+    <string name="multitasking_settings">Multitasking</string>
 </resources>

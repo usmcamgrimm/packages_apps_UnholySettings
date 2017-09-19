@@ -11,19 +11,7 @@
      limitations under the License.
 -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
-        android:title="@string/unholy_title" >
-
-    <!-- Hardware -->
-    <Preference
-        android:key="hardware_category"
-        android:title="@string/hardware_settings"
-        android:fragment="com.unholy.settings.fragments.HardwareSettings"/>
-
-    <!-- Multitasking -->
-    <Preference
-        android:key="multitasking_category"
-        android:title="@string/multitasking_settings"
-        android:fragment="com.unholy.settings.fragments.MultitaskingSettings"/>
+    android:title="@string/multitasking_settings"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
 </PreferenceScreen>
