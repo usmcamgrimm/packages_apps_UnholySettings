@@ -26,4 +26,10 @@
         android:title="@string/multitasking_settings"
         android:fragment="com.unholy.settings.fragments.MultitaskingSettings"/>
 
+    <!-- Quick settings -->
+    <Preference
+        android:key="qs_category"
+        android:title="@string/qs_settings"
+        android:fragment="com.unholy.settings.fragments.QSSettings"/>
+
 </PreferenceScreen>

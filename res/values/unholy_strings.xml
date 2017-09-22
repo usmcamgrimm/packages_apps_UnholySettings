@@ -17,6 +17,7 @@
     <!-- Settings Categories -->
     <string name="hardware_settings">Hardware</string>
     <string name="multitasking_settings">Multitasking</string>
+    <string name="qs_settings">Quick settings</string>
 
     <!-- Recent clear all button and location -->
     <string name="show_clear_all_recents_button_title">Clear all button</string>
