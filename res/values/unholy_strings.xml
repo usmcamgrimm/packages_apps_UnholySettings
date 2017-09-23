@@ -16,6 +16,7 @@
 
     <!-- Settings Categories -->
     <string name="hardware_settings">Hardware</string>
+    <string name="lockscreen_settings">Lockscreen settings</string>
     <string name="multitasking_settings">Multitasking</string>
     <string name="qs_settings">Quick settings</string>
 

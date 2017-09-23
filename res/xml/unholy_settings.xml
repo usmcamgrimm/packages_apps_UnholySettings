@@ -20,6 +20,12 @@
         android:title="@string/hardware_settings"
         android:fragment="com.unholy.settings.fragments.HardwareSettings"/>
 
+    <!-- Hardware -->
+    <Preference
+        android:key="lockscreen_category"
+        android:title="@string/lockscreen_settings"
+        android:fragment="com.unholy.settings.fragments.LockscreenSettings"/>
+
     <!-- Multitasking -->
     <Preference
         android:key="multitasking_category"
