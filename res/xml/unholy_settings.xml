@@ -32,6 +32,12 @@
         android:title="@string/multitasking_settings"
         android:fragment="com.unholy.settings.fragments.MultitaskingSettings"/>
 
+    <!-- Navbar -->
+    <Preference
+        android:key="navbar_category"
+        android:title="@string/navbar_settings"
+        android:fragment="com.unholy.settings.fragments.NavbarSettings"/>
+
     <!-- Quick settings -->
     <Preference
         android:key="qs_category"
