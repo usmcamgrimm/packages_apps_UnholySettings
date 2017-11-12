@@ -19,6 +19,7 @@
     <string name="lockscreen_settings">Lockscreen settings</string>
     <string name="multitasking_settings">Multitasking</string>
     <string name="navbar_settings">Navbar settings</string>
+    <string name="powermenu_settings">Power menu settings</string>
     <string name="qs_settings">Quick settings</string>
 
     <!-- Recent clear all button and location -->
@@ -56,5 +57,13 @@
 
     <!-- QS pulldown -->
     <string name="status_bar_quick_qs_pulldown">Quick pulldown</string>
+
+    <!-- Power Menu -->
+    <string name="power_menu_entries">Entries</string>
+    <!--string name="powermenu_reboot_title">Reboot</string-->
+    <string name="powermenu_airplane_title">Airplane mode</string>
+    <string name="powermenu_settings_title">Settings</string>
+    <string name="powermenu_lockdown_title">Lock now</string>
+    <string name="powermenu_soundpanel_title">Sound panel</string>
 
 </resources>
