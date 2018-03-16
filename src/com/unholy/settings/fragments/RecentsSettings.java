@@ -35,7 +35,7 @@ import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-public class MultitaskingSettings extends SettingsPreferenceFragment implements
+public class RecentsSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
     private static final String RECENTS_CLEAR_ALL_LOCATION = "recents_clear_all_location";
@@ -45,7 +45,7 @@ public class MultitaskingSettings extends SettingsPreferenceFragment implements
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.multitasking_settings);
+        addPreferencesFromResource(R.xml.recents_settings);
         ContentResolver resolver = getActivity().getContentResolver();
 
         // clear all recents
