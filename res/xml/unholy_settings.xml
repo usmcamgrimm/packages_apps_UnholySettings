@@ -32,12 +32,6 @@
         android:title="@string/miscellaneous_settings"
         android:fragment="com.unholy.settings.fragments.MiscellaneousSettings"/>
 
-    <!-- Multitasking -->
-    <Preference
-        android:key="multitasking_category"
-        android:title="@string/multitasking_settings"
-        android:fragment="com.unholy.settings.fragments.MultitaskingSettings"/>
-
     <!-- Navbar -->
     <Preference
         android:key="navbar_category"
@@ -55,5 +49,11 @@
         android:key="qs_category"
         android:title="@string/qs_settings"
         android:fragment="com.unholy.settings.fragments.QSSettings"/>
+
+    <!-- Recents -->
+    <Preference
+        android:key="recents_category"
+        android:title="@string/recents_settings"
+        android:fragment="com.unholy.settings.fragments.RecentsSettings"/>
 
 </PreferenceScreen>
