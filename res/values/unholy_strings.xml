@@ -22,6 +22,7 @@
     <string name="navbar_settings">Navbar settings</string>
     <string name="powermenu_settings">Power menu settings</string>
     <string name="qs_settings">QS tile settings</string>
+    <string name="statusbar_settings_title">Statusbar settings</string>
 
     <!-- Recents panel settings -->
     <string name="show_clear_all_recents_button_title">Clear all button</string>

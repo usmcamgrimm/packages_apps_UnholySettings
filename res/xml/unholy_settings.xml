@@ -56,4 +56,9 @@
         android:title="@string/recents_settings"
         android:fragment="com.unholy.settings.fragments.RecentsSettings"/>
 
+    <!-- Status Bar -->
+    <Preference
+        android:key="statusbar_settings"
+        android:title="@string/statusbar_settings_title"
+        android:fragment="com.unholy.settings.fragments.StatusbarSettings" />
 </PreferenceScreen>
